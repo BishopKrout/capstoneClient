@@ -1,0 +1,75 @@
+/* Base styles for body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Header styles */
+.header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  color: #4a47a3; /* You can adjust this color based on the New Paradigm palette */
+}
+
+/* Main content area */
+.main-content {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Table styles */
+.table-crypto {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-crypto th,
+.table-crypto td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table-crypto th {
+  background-color: #4a47a3; /* Main color from New Paradigm */
+  color: #ffffff;
+}
+
+.table-crypto tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+.table-crypto tr:hover {
+  background-color: #ddd; /* Hover effect for rows */
+}
+
+/* Utility classes */
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 1rem;
+  }
+
+  .table-crypto th,
+  .table-crypto td {
+    padding: 8px;
+  }
+}

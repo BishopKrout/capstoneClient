@@ -1,0 +1,32 @@
+/* client/src/pages/cryptodetail/CryptoDetailPage.css */
+/* Add your CSS styles here */
+.graph-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.details-container {
+    text-align: center;
+    padding: 1rem;
+}
+
+  .crypto-data {
+    width: 100%;
+    max-width: 600px; /* Match the graph width for alignment */
+    margin: 20px auto; /* Centering the data */
+    padding: 20px;
+    background: #ffffff; /* Matching the card background */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25); /* Consistent shadow */
+    border-radius: 8px; /* Consistency in design */
+    display: flex;
+    flex-direction: column; /* For vertical layout */
+    align-items: center; /* Center align the text/data */
+  }
+  /* Additional styles as per your design */
+  

@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+    .navbar ul {
+      flex-direction: column;
+    }
+  
+    .market-stats {
+      flex-direction: column;
+    }
+  
+    .stat-card {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .logo {
+      margin-bottom: 1rem;
+    }
+  
+  }
+  

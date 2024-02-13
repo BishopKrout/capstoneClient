@@ -1,0 +1,47 @@
+/* Center the main content */
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures content takes up at least the full viewport height */
+    background-color: #f8f9fa; /* You can adjust the background color here */
+  }
+  
+  /* Style for the h1 */
+  .home-content h1 {
+    font-size: 2rem;
+    margin-bottom: 20px; /* Add some spacing below the heading */
+  }
+  
+  /* Style for the table */
+  table {
+    width: 80%; /* Adjust the width as needed */
+    border-collapse: collapse;
+    margin-top: 20px; /* Add some spacing above the table */
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style for cryptocurrency items in the table */
+  tr:nth-child(even) {
+    background-color: #ffffff; /* Alternate row background color */
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #f0f0f0; /* Alternate row background color */
+  }
+  
+  /* Style for the table header */
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+  
